@@ -77,10 +77,6 @@ a {
     text-decoration: none;
 }
 
-#btn-close-offcanvas {
-    color: #020202;
-}
-
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
     /* Navbar */
@@ -91,22 +87,25 @@ a {
 
     #navbar-mobile{
         display: flex;
-        color: #020202;
         background-color: rgb(251, 244, 244) !important;
         font-family: NeueMontreal-Bold;
     }
 
     .navbar-brand {
         font-size: 30px !important;
+        color: #020202 !important;
     }
 
     .navbar-toggler, #btn-close-offcanvas {
         margin-right: 10px;
     }
 
+    .navbar-toggler-icon {
+        color: white !important;
+    }
+
     .offcanvas {
-        background-color: rgb(251, 244, 244) !important;
-        color: #020202;
+        background-color: black;
     }
 
     .offcanvas-title {
