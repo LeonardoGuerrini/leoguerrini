@@ -58,6 +58,7 @@
 
 body {
     background-color: rgb(251, 244, 244) !important;
+    overflow-x: hidden;
 }
 
 *::-webkit-scrollbar {
@@ -74,6 +75,10 @@ body {
 
 a {
     text-decoration: none;
+}
+
+#btn-close-offcanvas {
+    color: #020202;
 }
 
 /* Extra small devices (phones, 600px and down) */
@@ -95,8 +100,8 @@ a {
         font-size: 30px !important;
     }
 
-    .navbar-toggler {
-        color: #020202;
+    .navbar-toggler, #btn-close-offcanvas {
+        margin-right: 10px;
     }
 
     .offcanvas {
@@ -124,50 +129,51 @@ a {
 
     .main-div {
         display: flex;
+        flex-direction: column;
         justify-content: center;
-        word-wrap: break-word;
+        word-break: break-all;
     }
 
     .main-text {
-        font-size: 3rem;
+        font-size: 3.7rem;
+        border-bottom: 1px solid #058c42;
+        width: 70%;
+        margin: 0 auto;
         margin-top: 13rem;
-        border-right: 1px solid #058c42;
-        padding-right: 20px;
     }
 
     .leonardo-main {
         display: flex;
         justify-content: center;
         color: #020202;
-        border-bottom: 1px solid #058c42;
         margin: 0 auto;
         font: 900;
         font-family: "NeueMontreal-Bold";
     }
 
     .guerrini-main {
+        display: flex;
+        justify-content: center;
         font: 900;
         color: #058c42;
-        margin-left: 6rem;
         font-family: "Migra-ExtraBold";
     }
 
     .main-p {
         display: flex;
         flex-direction: column;
+        align-items: center;
         justify-content: center;
-        margin-top: 13rem;
-        margin-left: 20px;
-        font-size: 1.5rem;
-        word-wrap: break-word;
+        margin-top: 1rem;
+        font-size: 1.8rem;
         font-family: "NeueMontreal-Bold";
     }
 
     .p-one {
-        font-size: 2rem;
+        font-size: 3rem;
         font-family: "Migra-ExtraBold";
         color: #058c42;
-        word-wrap: break-word;
+        word-break: break-all;
     }
 
     .frontEnd {
@@ -195,10 +201,13 @@ a {
         flex-direction: column;
         align-items: center;
         margin-top: 3%;
+        flex-wrap: wrap;
         gap: 80px;
     }
 
     .about-p {
+        overflow: hidden;
+        width: 88%;
         text-align: center;
         font-size: 1.5rem;
         font-family: NeueMontreal-Bold;
@@ -255,7 +264,7 @@ a {
         flex-direction: column;
         margin-top: 15%;
         gap: 80px;
-        margin-left: 18%;
+        margin-left: 16%;
     }
 
     .projects-div-text {
