@@ -108,6 +108,10 @@ a {
         background-color: black;
     }
 
+    .offcanvas-header {
+
+    }
+
     .offcanvas-title {
         font-size: 30px;
         font-family: Migra-ExtraBold;
