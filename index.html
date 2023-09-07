@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Leonardo Guerrini</title>
+        <link rel="stylesheet" href="style.css" />
+        <script src="https://cdn.tailwindcss.com"></script>
+        <script src="https://kit.fontawesome.com/7e5991a30c.js" crossorigin="anonymous"></script>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+        
+    </head>
+    <body>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+        <!-- Header -->
+        <header>
+            <nav>
+                <div class="navbar-title-div">
+                    <a href="#home" class="navbar-title">
+                        <span class="guerrini-navbar">guerrini</span>
+                    </a>
+                </div>
+
+                <div class="navbar-item-div">
+                    <button class="navbar-item" onclick="window.location.href='#about';">about</button>
+                    <button class="navbar-item" onclick="window.location.href='#projects';">projects</button>
+                    <button class="navbar-item" onclick="window.location.href='#contact';">contact</button>
+                </div>
+            </nav>
+        </header>
+
+        <!-- Navbar Mobile -->
+        <nav class="navbar bg-body-tertiary fixed-top" id="navbar-mobile">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">guerrini</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                  <h5 class="offcanvas-title" id="offcanvasNavbarLabel">guerrini</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                  <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                    <li class="nav-item">
+                      <a class="nav-link" href="#about">about</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">projects</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">contact</a>
+                    </li>
+                   
+                </div>
+              </div>
+            </div>
+          </nav>
+        
+        <!-- Main -->
+        <main id="home">
+            <div class="main-div">
+                <h1 class="main-text">
+                    <span class="leonardo-main main-title">Leonardo</span>
+                    <span class="guerrini-main main-title">Guerrini</span>
+                </h1>
+                <p class="main-p">
+                    <span class="p-one">welcome!</span>
+                    <span class="p-two">paraná, brazil</span>
+                    <span class="p-three"><span class="frontEnd"> front-end</span> developer</span>
+
+                </span>
+                </p>
+
+            </div>
+        </main>
+
+        <!-- About -->
+        <section class="about" id="about">
+            <h1 class="about-title">About</h1>
+            <div class="about-div">
+                <p class="about-p">I'm a front-end developer based in Brazil. I started programming <br> with Python a few years ago and now focus on web development. <br> I also study databases and in the future intend to study back-end.</p>
+
+                <h1 class="about-skills-title">Skills</h1>
+                <div class="skills">
+                    <a href="https://www.flaticon.com/free-icons/html" title="html icons">
+                        <img src="Imagens/html.png" alt="Flaticon HTML" class="flaticon-icon">
+                        <p class="skills-p">HTML5</p>
+                    </a>
+                    <a href="https://www.flaticon.com/free-icons/css" title="css icons">
+                        <img src="Imagens/css-3.png" alt="Flaticon CSS" class="flaticon-icon">
+                        <p class="skills-p">CSS3</p>
+                    </a>
+                    <a href="https://www.flaticon.com/free-icons/javascript" title="javascript icons">
+                        <img src="Imagens/js.png" alt="Flaticon JS" class="flaticon-icon">
+                        <p class="skills-p">Javascript</p>
+                    </a>
+                    <a href="https://www.flaticon.com/free-icons/bootstrap" title="bootstrap icons">
+                        <img src="Imagens/bootstrap.png" alt="Flaticon Bootstrap" class="flaticon-icon">
+                        <p class="skills-p">Bootstrap</p>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects -->
+        <section class="projects" id="projects">
+            <h1 class="projects-title">Projects</h1>
+            <div class="projects-div">
+
+                <div class="project-one">
+                    <img src="Imagens/manganow.png" alt="MangaNow Project" class="projects-img">
+                    <div class="projects-div-text">
+                        <h1 class="manganow-title">manganow</h1>
+                        <p class="projects-p">status: <span class="status-one">ongoing</span></p>
+                        <p class="projects-p">site to read manga</p>
+                        <button class="projects-button-visit" onclick="window.open('https://www.manganow.online/')">open</button>
+                    </div>
+
+                </div>
+
+                <div class="project-two">
+                    <img src="Imagens/nothingyet.png" alt="Nothing Yet..." class="projects-img">
+                    <div class="projects-div-text">
+                        <h1 class="project-two-title">###</h1>
+                        <p class="projects-p">status: <span class="status-two">###</span></p>
+                        <p class="projects-p">description...</p>
+                        <button class="projects-button-visit" onclick="window.open('#home')">open</button>
+                    </div>
+
+                </div>
+                <div class="project-three"></div>
+            </div>
+        </section>
+
+        <!-- Contact -->
+        <section class="contact" id="contact">
+            <h1 class="contact-title">Contact</h1>
+            <div class="contact-div">
+                <div class="contact-links-div">
+                    <i class="fa-solid fa-envelope"></i>
+                    <a href="mailto:leonardogguerrini@gmail.com" class="contact-links">Email</a>
+                </div>
+                    
+                <div class="contact-links-div">
+                    <i class="fa-brands fa-github"></i>
+                    <a href="https://github.com/LeonardoGuerrini/" class="contact-links">Github</a>
+                </div>
+
+            </div>
+        </section>
+
+
+
+
+    </body>
+</html>

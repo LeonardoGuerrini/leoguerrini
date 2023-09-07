@@ -1,0 +1,1480 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+@font-face {
+    font-family: TuskerGrotesk-3500Medium;
+    src: url(Fontes/TuskerGrotesk-3500Medium.otf);
+}
+
+@font-face {
+    font-family: TuskerGrotesk-1800Super;
+    src: url(Fontes/TuskerGrotesk-1800Super.otf);
+}
+
+@font-face {
+    font-family: TuskerGrotesk-1700Bold;
+    src: url(Fontes/TuskerGrotesk-1700Bold.ttf);
+}
+
+@font-face {
+    font-family: JackSimba;
+    src: url(Fontes/Jack\ Simba\ -\ Personal\ Use.otf);
+}
+
+@font-face {
+    font-family: NeueMontreal-Bold;
+    src: url(Fontes/NeueMontreal-Bold.otf);
+}
+
+@font-face {
+    font-family: NeueMontreal-Medium;
+    src: url(Fontes/NeueMontreal-Medium.otf);
+}
+
+@font-face {
+    font-family: NeueMontreal-Light;
+    src: url(Fontes/NeueMontreal-Light.otf);
+}
+
+@font-face {
+    font-family: Migra-ExtraBold;
+    src: url(Fontes/Migra-Extrabold.ttf);
+}
+
+@font-face {
+    font-family: TuskerGrotesk-8700Bold;
+    src: url(Fontes/TuskerGrotesk-8700Bold.ttf);
+}
+
+@font-face {
+    font-family: TuskerGrotesk-8800Super;
+    src: url(Fontes/TuskerGrotesk-8800Super.otf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(251, 244, 244) !important;
+}
+
+*::-webkit-scrollbar {
+    width: 12px;
+}
+
+*::-webkit-scrollbar-track {
+    background: rgb(251, 244, 244);
+}
+
+*::-webkit-scrollbar-thumb {
+    background-color: #020202;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    /* Navbar */
+
+    nav {
+        display: none;
+    }
+
+    #navbar-mobile{
+        display: flex;
+        color: #020202;
+        background-color: rgb(251, 244, 244) !important;
+        font-family: NeueMontreal-Bold;
+    }
+
+    .navbar-brand {
+        font-size: 30px !important;
+    }
+
+    .offcanvas {
+        background-color: rgb(251, 244, 244) !important;
+    }
+
+    .offcanvas-title {
+        font-size: 30px;
+        font-family: Migra-ExtraBold;
+    }
+
+    .nav-item {
+        font-size: 30px;
+        margin-top: 10px;
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    /* End Navbar */
+
+    /* Main */
+
+    .main-div {
+        display: flex;
+        justify-content: center;
+        word-wrap: break-word;
+    }
+
+    .main-text {
+        font-size: 3rem;
+        margin-top: 13rem;
+        border-right: 1px solid #058c42;
+        padding-right: 20px;
+    }
+
+    .leonardo-main {
+        display: flex;
+        justify-content: center;
+        color: #020202;
+        border-bottom: 1px solid #058c42;
+        margin: 0 auto;
+        font: 900;
+        font-family: "NeueMontreal-Bold";
+    }
+
+    .guerrini-main {
+        font: 900;
+        color: #058c42;
+        margin-left: 6rem;
+        font-family: "Migra-ExtraBold";
+    }
+
+    .main-p {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-top: 13rem;
+        margin-left: 20px;
+        font-size: 1.5rem;
+        word-wrap: break-word;
+        font-family: "NeueMontreal-Bold";
+    }
+
+    .p-one {
+        font-size: 2rem;
+        font-family: "Migra-ExtraBold";
+        color: #058c42;
+        word-wrap: break-word;
+    }
+
+    .frontEnd {
+        color: #058c42;
+    }
+
+    /* End Main */
+
+    /* About */
+
+    .about {
+        margin-top: 60%;
+    }
+
+    .about-title {
+        display: flex;
+        justify-content: center;
+        font-size: 5rem;
+        font-family: NeueMontreal-Bold;
+        color: #020202;
+    }
+
+    .about-div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 3%;
+        gap: 80px;
+    }
+
+    .about-p {
+        text-align: center;
+        font-size: 1.5rem;
+        font-family: NeueMontreal-Bold;
+    }
+
+    .about-skills-title {
+        display: flex;
+        justify-content: flex-end;
+        font-size: 4rem;
+        font-family: NeueMontreal-Bold;
+        color: #020202;
+    }
+
+    .skills {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 80px;
+        flex-wrap: wrap;
+        font-family: NeueMontreal-Bold;
+    }
+
+    .flaticon-icon {
+        display: flex;
+        width: 110px;
+        height: auto;
+    }
+
+    .skills-p {
+        display: flex;
+        justify-content: center;
+        font-size: 1.5rem;
+        margin-top: 20px;
+    }
+
+    /* End About */
+
+    /* Projects */
+
+    .projects {
+        margin-top: 20%;
+    }
+
+    .projects-title {
+        display: flex;
+        justify-content: center;
+        font-size: 5rem;
+        font-family: NeueMontreal-Bold;
+        color: #020202;
+    }
+
+    .projects-div {
+        display: flex;
+        flex-direction: column;
+        margin-top: 15%;
+        gap: 80px;
+        margin-left: 18%;
+    }
+
+    .projects-div-text {
+        margin-left: 10px;
+    }
+
+    .project-one,
+    .project-two {
+        display: flex;
+        flex-direction: column;
+        font-family: NeueMontreal-Bold;
+    }
+
+    .manganow-title,
+    .project-two-title {
+        display: flex;
+        color: #058c42;
+        font-size: 2.5rem;
+        transition: all 0.3s;
+    }
+
+    .projects-p {
+        font-size: 1.5rem;
+    }
+
+    .projects-img {
+        width: 80%;
+        height: 30%;
+        border-radius: 20px;
+    }
+
+    .projects-button-visit {
+        border: 1px solid transparent;
+        border-radius: 20px;
+        background-color: #16db65;
+        padding: 8px 20px 8px 20px;
+        font-size: 1.5rem;
+        transition: all 0.3s;
+    }
+
+    .projects-button-visit:hover {
+        background-color: #020202;
+        color: rgb(251, 244, 244);
+        box-shadow: #020202 0px 5px 15px;
+    }
+
+    .status-one {
+        color: rgb(247, 88, 88);
+    }
+
+    /* End Projects */
+
+    /* Contact */
+
+    .contact {
+        margin-top: 20%;
+    }
+
+    .contact-title {
+        display: flex;
+        justify-content: center;
+        font-size: 5rem;
+        font-family: NeueMontreal-Bold;
+        color: #020202;
+    }
+
+    .contact-div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 5%;
+        gap: 50px;
+    }
+
+    .fa-envelope,
+    .fa-github {
+        display: flex;
+        justify-content: center;
+        font-size: 50px;
+    }
+
+    .contact-links-div {
+        display: flex;
+        flex-direction: row;
+        gap: 30px;
+    }
+
+    .contact-links {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        font-size: 30px;
+        font-family: NeueMontreal-Medium;
+        transition: all 0.3s;
+        border: 1px solid #020202;
+        border-radius: 20px;
+        padding: 0px 10px 0px 10px;
+    }
+
+    .contact-links:hover {
+        color: #16db65;
+    }
+
+    /* End Contact */
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) and (max-width: 767px) {
+    /* Header */
+    #navbar-mobile{
+        display: none;
+    }
+    nav {
+        display: flex;
+    }
+    a {
+        text-decoration: none;
+    }
+
+    /* End Header */
+
+    /* Main */
+
+    .main-div {
+        display: flex;
+        justify-content: center;
+    }
+
+    .main-text {
+        font-size: 7rem;
+        margin-top: 13rem;
+        border-right: 1px solid #058c42;
+        padding-right: 20px;
+    }
+
+    .leonardo-main {
+        display: flex;
+        justify-content: center;
+        color: #020202;
+        border-bottom: 1px solid #058c42;
+        margin: 0 auto;
+        font: 900;
+        font-family: "NeueMontreal-Bold";
+    }
+
+    .guerrini-main {
+        font: 900;
+        color: #058c42;
+        margin-left: 12rem;
+        font-family: "Migra-ExtraBold";
+    }
+
+    .main-p {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-top: 13rem;
+        margin-left: 20px;
+        font-size: 3rem;
+        font-family: "NeueMontreal-Bold";
+    }
+
+    .p-one {
+        font-size: 5rem;
+        font-family: "Migra-ExtraBold";
+        color: #058c42;
+    }
+
+    .frontEnd {
+        color: #058c42;
+    }
+
+    /* End Main */
+
+    /* About */
+
+    .about {
+        margin-top: 30%;
+    }
+
+    .about-title {
+        display: flex;
+        justify-content: flex-end;
+        margin-right: 10%;
+        font-size: 7rem;
+        font-family: NeueMontreal-Bold;
+        color: #020202;
+    }
+
+    .about-div {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        margin-top: 3%;
+        gap: 80px;
+    }
+
+    .about-p {
+        margin-right: 10%;
+        font-size: 1.5rem;
+        font-family: NeueMontreal-Bold;
+    }
+
+    .about-skills-title {
+        display: flex;
+        justify-content: flex-end;
+        margin-right: 10%;
+        font-size: 4rem;
+        font-family: NeueMontreal-Bold;
+        color: #020202;
+    }
+
+    .skills {
+        display: flex;
+        margin-right: 10%;
+        font-family: NeueMontreal-Bold;
+    }
+
+    .flaticon-icon {
+        display: flex;
+        margin-left: 3rem;
+        width: 130px;
+        height: auto;
+    }
+
+    .skills-p {
+        display: flex;
+        justify-content: center;
+        font-size: 1.5rem;
+        margin-top: 20px;
+    }
+
+    /* End About */
+
+    /* Projects */
+
+    .projects {
+        margin-top: 20%;
+    }
+
+    .projects-title {
+        display: flex;
+        justify-content: flex-start;
+        margin-left: 10%;
+        font-size: 7rem;
+        font-family: NeueMontreal-Bold;
+        color: #020202;
+    }
+
+    .projects-div {
+        display: flex;
+        flex-direction: column;
+        margin-top: 3%;
+        gap: 80px;
+    }
+
+    .project-one,
+    .project-two {
+        display: flex;
+        flex-direction: row;
+        margin-left: 10%;
+        font-family: NeueMontreal-Bold;
+    }
+
+    .projects-div-text {
+        margin-left: 20px;
+    }
+
+    .manganow-title,
+    .project-two-title {
+        display: flex;
+        color: #058c42;
+        font-size: 2.5rem;
+        transition: all 0.3s;
+    }
+
+    .projects-p {
+        font-size: 1.5rem;
+    }
+
+    .projects-img {
+        width: 30%;
+        border-radius: 20px;
+    }
+
+    .projects-button-visit {
+        border: 1px solid transparent;
+        border-radius: 20px;
+        background-color: #16db65;
+        padding: 8px 20px 8px 20px;
+        font-size: 1.5rem;
+        transition: all 0.3s;
+    }
+
+    .projects-button-visit:hover {
+        background-color: #020202;
+        color: rgb(251, 244, 244);
+        box-shadow: #020202 0px 5px 15px;
+    }
+
+    .status-one {
+        color: rgb(247, 88, 88);
+    }
+
+    /* End Projects */
+
+    /* Contact */
+
+    .contact {
+        margin-top: 20%;
+    }
+
+    .contact-title {
+        display: flex;
+        justify-content: flex-end;
+        margin-right: 10%;
+        font-size: 7rem;
+        font-family: NeueMontreal-Bold;
+        color: #020202;
+    }
+
+    .contact-div {
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: flex-end;
+        margin-right: 10%;
+        margin-top: 3%;
+        gap: 50px;
+    }
+
+    .fa-envelope,
+    .fa-github {
+        display: flex;
+        justify-content: center;
+        font-size: 50px;
+    }
+
+    .contact-links {
+        display: flex;
+        justify-content: center;
+        font-size: 30px;
+        margin-left: 15px;
+        font-family: NeueMontreal-Medium;
+        transition: all 0.3s;
+    }
+
+    .contact-links:hover {
+        color: #16db65;
+    }
+
+    /* End Contact */
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    /* Header */
+    #navbar-mobile{
+        display: none;
+    }
+    nav {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .navbar-title {
+        font-size: 5rem;
+        font-family: "Migra-ExtraBold";
+        color: #020202;
+        transition: all 0.2s ease-in-out;
+    }
+
+    .navbar-title:hover {
+        color: #16db65;
+    }
+
+    .navbar-title-div {
+        margin: 20px;
+    }
+
+    .navbar-item-div {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .navbar-item {
+        color: #020202;
+        background-color: transparent;
+        font-size: 40px;
+        font-family: "NeueMontreal-Medium";
+        padding: 10px;
+        margin: 20px;
+        border: none;
+        border-radius: 20px;
+        cursor: pointer;
+        font-weight: 500;
+        transition: all 0.3s;
+    }
+
+    .navbar-item:hover {
+        color: #16db65;
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    /* End Header */
+
+    /* Main */
+
+    .main-div {
+        display: flex;
+        justify-content: center;
+    }
+
+    .main-text {
+        font-size: 4rem;
+        margin-top: 13rem;
+        border-right: 1px solid #058c42;
+        padding-right: 20px;
+    }
+
+    .leonardo-main {
+        display: flex;
+        justify-content: center;
+        color: #020202;
+        border-bottom: 1px solid #058c42;
+        margin: 0 auto;
+        font: 900;
+        font-family: "NeueMontreal-Bold";
+    }
+
+    .guerrini-main {
+        font: 900;
+        color: #058c42;
+        margin-left: 8rem;
+        font-family: "Migra-ExtraBold";
+    }
+
+    .main-p {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-top: 13rem;
+        margin-left: 20px;
+        font-size: 2rem;
+        font-family: "NeueMontreal-Bold";
+    }
+
+    .p-one {
+        font-size: 3.5rem;
+        font-family: "Migra-ExtraBold";
+        color: #058c42;
+    }
+
+    .frontEnd {
+        color: #058c42;
+    }
+
+    /* End Main */
+
+    /* About */
+
+    .about {
+        margin-top: 60%;
+    }
+
+    .about-title {
+        display: flex;
+        justify-content: center;
+        font-size: 7rem;
+        font-family: NeueMontreal-Bold;
+        color: #020202;
+    }
+
+    .about-div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 3%;
+        gap: 80px;
+    }
+
+    .about-p {
+        font-size: 2rem;
+        font-family: NeueMontreal-Bold;
+        text-align: center;
+    }
+
+    .about-skills-title {
+        display: flex;
+        justify-content: flex-end;
+        font-size: 4rem;
+        font-family: NeueMontreal-Bold;
+        color: #020202;
+    }
+
+    .skills {
+        display: flex;
+        gap: 3rem;
+        font-family: NeueMontreal-Bold;
+    }
+
+    .flaticon-icon {
+        display: flex;
+        width: 130px;
+        height: auto;
+    }
+
+    .skills-p {
+        display: flex;
+        justify-content: center;
+        font-size: 1.5rem;
+        margin-top: 20px;
+    }
+
+    /* End About */
+
+    /* Projects */
+
+    .projects {
+        margin-top: 20%;
+    }
+
+    .projects-title {
+        display: flex;
+        justify-content: center;
+        font-size: 7rem;
+        font-family: NeueMontreal-Bold;
+        color: #020202;
+    }
+
+    .projects-div {
+        display: flex;
+        flex-direction: column;
+        margin-top: 8%;
+        gap: 80px;
+    }
+
+    .projects-div-text {
+        margin-left: 20px;
+    }
+
+    .project-one,
+    .project-two {
+        display: flex;
+        flex-direction: column;
+        margin-left: 17%;
+        font-family: NeueMontreal-Bold;
+    }
+    .manganow-title,
+    .project-two-title {
+        color: #058c42;
+        font-size: 3rem;
+        transition: all 0.3s;
+    }
+
+    .projects-p {
+        font-size: 2rem;
+    }
+
+    .projects-img {
+        width: 80%;
+        border-radius: 20px;
+    }
+
+    .projects-button-visit {
+        border: 1px solid transparent;
+        border-radius: 20px;
+        background-color: #16db65;
+        padding: 8px 20px 8px 20px;
+        margin-top: 20px;
+        font-size: 2rem;
+        transition: all 0.3s;
+    }
+
+    .projects-button-visit:hover {
+        background-color: #020202;
+        color: rgb(251, 244, 244);
+        box-shadow: #020202 0px 5px 15px;
+    }
+
+    .status-one {
+        color: rgb(247, 88, 88);
+    }
+
+    /* End Projects */
+
+    /* Contact */
+
+    .contact {
+        display: flex;
+        flex-direction: column;
+        margin-top: 20%;
+    }
+
+    .contact-title {
+        display: flex;
+        justify-content: center;
+        font-size: 7rem;
+        font-family: NeueMontreal-Bold;
+        color: #020202;
+    }
+
+    .contact-div {
+        display: flex;
+        align-items: center;
+        align-self: center;
+        margin-top: 3%;
+        gap: 50px;
+    }
+
+    .fa-envelope,
+    .fa-github {
+        display: flex;
+        justify-content: center;
+        font-size: 70px;
+    }
+
+    .contact-links-div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contact-links {
+        display: flex;
+        justify-content: center;
+        font-size: 40px;
+        font-family: NeueMontreal-Medium;
+        transition: all 0.3s;
+        margin-top: 20px;
+        border: 1px solid #020202;
+        border-radius: 20px;
+        padding: 10px;
+    }
+
+    .contact-links:hover {
+        color: #16db65;
+    }
+
+    /* End Contact */
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    /* Header */
+    #navbar-mobile{
+        display: none;
+    }
+    nav {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .navbar-title {
+        font-size: 3rem;
+        font-family: "Migra-ExtraBold";
+        color: #020202;
+        transition: all 0.2s ease-in-out;
+    }
+
+    .navbar-title:hover {
+        color: #16db65;
+    }
+
+    .navbar-title-div {
+        margin: 20px;
+    }
+
+    .navbar-item-div {
+        display: flex;
+        justify-content: flex-end;
+        gap: 20px;
+    }
+
+    .navbar-item {
+        color: #020202;
+        background-color: transparent;
+        font-size: 25px;
+        font-family: "NeueMontreal-Medium";
+        padding: 10px;
+        margin: 20px;
+        border: none;
+        border-radius: 20px;
+        cursor: pointer;
+        font-weight: 500;
+        transition: all 0.3s;
+    }
+
+    .navbar-item:hover {
+        color: #16db65;
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    /* End Header */
+
+    /* Main */
+
+    .main-div {
+        display: flex;
+        justify-content: center;
+    }
+
+    .main-text {
+        font-size: 7rem;
+        margin-top: 13rem;
+        border-right: 1px solid #058c42;
+        padding-right: 20px;
+    }
+
+    .leonardo-main {
+        display: flex;
+        justify-content: center;
+        color: #020202;
+        border-bottom: 1px solid #058c42;
+        margin: 0 auto;
+        font: 900;
+        font-family: "NeueMontreal-Bold";
+    }
+
+    .guerrini-main {
+        font: 900;
+        color: #058c42;
+        margin-left: 12rem;
+        font-family: "Migra-ExtraBold";
+    }
+
+    .main-p {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-top: 13rem;
+        margin-left: 20px;
+        font-size: 3rem;
+        font-family: "NeueMontreal-Bold";
+    }
+
+    .p-one {
+        font-size: 5rem;
+        font-family: "Migra-ExtraBold";
+        color: #058c42;
+    }
+
+    .frontEnd {
+        color: #058c42;
+    }
+
+    /* End Main */
+
+    /* About */
+
+    .about {
+        margin-top: 30%;
+    }
+
+    .about-title {
+        display: flex;
+        justify-content: flex-end;
+        margin-right: 10%;
+        font-size: 7rem;
+        font-family: NeueMontreal-Bold;
+        color: #020202;
+    }
+
+    .about-div {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        margin-top: 3%;
+        gap: 80px;
+    }
+
+    .about-p {
+        margin-right: 10%;
+        font-size: 1.5rem;
+        font-family: NeueMontreal-Bold;
+    }
+
+    .about-skills-title {
+        display: flex;
+        justify-content: flex-end;
+        margin-right: 10%;
+        font-size: 4rem;
+        font-family: NeueMontreal-Bold;
+        color: #020202;
+    }
+
+    .skills {
+        display: flex;
+        margin-right: 10%;
+        font-family: NeueMontreal-Bold;
+    }
+
+    .flaticon-icon {
+        display: flex;
+        margin-left: 3rem;
+        width: 130px;
+        height: auto;
+    }
+
+    .skills-p {
+        display: flex;
+        justify-content: center;
+        font-size: 1.5rem;
+        margin-top: 20px;
+    }
+
+    /* End About */
+
+    /* Projects */
+
+    .projects {
+        margin-top: 20%;
+    }
+
+    .projects-title {
+        display: flex;
+        justify-content: flex-start;
+        margin-left: 10%;
+        font-size: 7rem;
+        font-family: NeueMontreal-Bold;
+        color: #020202;
+    }
+
+    .projects-div {
+        display: flex;
+        flex-direction: column;
+        margin-top: 3%;
+        gap: 80px;
+    }
+
+    .project-one,
+    .project-two {
+        display: flex;
+        flex-direction: row;
+        margin-left: 10%;
+        font-family: NeueMontreal-Bold;
+    }
+
+    .projects-div-text {
+        margin-left: 20px;
+    }
+
+    .manganow-title,
+    .project-two-title {
+        display: flex;
+        color: #058c42;
+        font-size: 2.5rem;
+        transition: all 0.3s;
+    }
+
+    .projects-p {
+        font-size: 1.5rem;
+    }
+
+    .projects-img {
+        width: 30%;
+        border-radius: 20px;
+    }
+
+    .projects-button-visit {
+        border: 1px solid transparent;
+        border-radius: 20px;
+        background-color: #16db65;
+        padding: 8px 20px 8px 20px;
+        font-size: 1.5rem;
+        transition: all 0.3s;
+    }
+
+    .projects-button-visit:hover {
+        background-color: #020202;
+        color: rgb(251, 244, 244);
+        box-shadow: #020202 0px 5px 15px;
+    }
+
+    .status-one {
+        color: rgb(247, 88, 88);
+    }
+
+    /* End Projects */
+
+    /* Contact */
+
+    .contact {
+        margin-top: 20%;
+    }
+
+    .contact-title {
+        display: flex;
+        justify-content: flex-end;
+        margin-right: 10%;
+        font-size: 7rem;
+        font-family: NeueMontreal-Bold;
+        color: #020202;
+    }
+
+    .contact-div {
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: flex-end;
+        margin-right: 10%;
+        margin-top: 3%;
+        gap: 50px;
+    }
+
+    .fa-envelope,
+    .fa-github {
+        display: flex;
+        justify-content: center;
+        font-size: 50px;
+    }
+
+    .contact-links-div {
+        display: flex;
+        justify-content: center;
+        font-size: 30px;
+        margin-left: 15px;
+        font-family: NeueMontreal-Medium;
+        transition: all 0.3s;
+    }
+
+    .contact-links:hover {
+        color: #16db65;
+    }
+
+    /* End Contact */
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    /* Header */
+    #navbar-mobile{
+        display: none;
+    }
+    nav {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .navbar-title {
+        font-size: 3rem;
+        font-family: "Migra-ExtraBold";
+        color: #020202;
+        transition: all 0.2s ease-in-out;
+    }
+
+    .navbar-title:hover {
+        color: #16db65;
+    }
+
+    .navbar-title-div {
+        margin: 20px;
+    }
+
+    .navbar-item-div {
+        display: flex;
+        justify-content: flex-end;
+        gap: 20px;
+    }
+
+    .navbar-item {
+        color: #020202;
+        background-color: transparent;
+        font-size: 25px;
+        font-family: "NeueMontreal-Medium";
+        padding: 10px;
+        margin: 20px;
+        border: none;
+        border-radius: 20px;
+        cursor: pointer;
+        font-weight: 500;
+        transition: all 0.3s;
+    }
+
+    .navbar-item:hover {
+        color: #16db65;
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    /* End Header */
+
+    /* Main */
+
+    .main-div {
+        display: flex;
+        justify-content: center;
+    }
+
+    .main-text {
+        font-size: 7rem;
+        margin-top: 13rem;
+        border-right: 1px solid #058c42;
+        padding-right: 20px;
+    }
+
+    .leonardo-main {
+        display: flex;
+        justify-content: center;
+        color: #020202;
+        border-bottom: 1px solid #058c42;
+        margin: 0 auto;
+        font: 900;
+        font-family: "NeueMontreal-Bold";
+    }
+
+    .guerrini-main {
+        font: 900;
+        color: #058c42;
+        margin-left: 12rem;
+        font-family: "Migra-ExtraBold";
+    }
+
+    .main-p {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-top: 13rem;
+        margin-left: 20px;
+        font-size: 3rem;
+        font-family: "NeueMontreal-Bold";
+    }
+
+    .p-one {
+        font-size: 5rem;
+        font-family: "Migra-ExtraBold";
+        color: #058c42;
+    }
+
+    .frontEnd {
+        color: #058c42;
+    }
+
+    /* End Main */
+
+    /* About */
+
+    .about {
+        margin-top: 30%;
+    }
+
+    .about-title {
+        display: flex;
+        justify-content: flex-end;
+        margin-right: 10%;
+        font-size: 7rem;
+        font-family: NeueMontreal-Bold;
+        color: #020202;
+    }
+
+    .about-div {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        margin-top: 3%;
+        gap: 80px;
+    }
+
+    .about-p {
+        margin-right: 10%;
+        font-size: 1.5rem;
+        font-family: NeueMontreal-Bold;
+    }
+
+    .about-skills-title {
+        display: flex;
+        justify-content: flex-end;
+        margin-right: 10%;
+        font-size: 4rem;
+        font-family: NeueMontreal-Bold;
+        color: #020202;
+    }
+
+    .skills {
+        display: flex;
+        margin-right: 10%;
+        font-family: NeueMontreal-Bold;
+    }
+
+    .flaticon-icon {
+        display: flex;
+        margin-left: 3rem;
+        width: 130px;
+        height: auto;
+    }
+
+    .skills-p {
+        display: flex;
+        justify-content: center;
+        font-size: 1.5rem;
+        margin-top: 20px;
+    }
+
+    /* End About */
+
+    /* Projects */
+
+    .projects {
+        margin-top: 20%;
+    }
+
+    .projects-title {
+        display: flex;
+        justify-content: flex-start;
+        margin-left: 10%;
+        font-size: 7rem;
+        font-family: NeueMontreal-Bold;
+        color: #020202;
+    }
+
+    .projects-div {
+        display: flex;
+        flex-direction: column;
+        margin-top: 3%;
+        gap: 80px;
+    }
+
+    .project-one,
+    .project-two {
+        display: flex;
+        flex-direction: row;
+        margin-left: 10%;
+        font-family: NeueMontreal-Bold;
+    }
+
+    .projects-div-text {
+        margin-left: 20px;
+    }
+
+    .manganow-title,
+    .project-two-title {
+        display: flex;
+        color: #058c42;
+        font-size: 2.5rem;
+        transition: all 0.3s;
+    }
+
+    .projects-p {
+        font-size: 1.5rem;
+    }
+
+    .projects-img {
+        width: 30%;
+        border-radius: 20px;
+    }
+
+    .projects-button-visit {
+        border: 1px solid transparent;
+        border-radius: 20px;
+        background-color: #16db65;
+        padding: 8px 20px 8px 20px;
+        font-size: 1.5rem;
+        transition: all 0.3s;
+    }
+
+    .projects-button-visit:hover {
+        background-color: #020202;
+        color: rgb(251, 244, 244);
+        box-shadow: #020202 0px 5px 15px;
+    }
+
+    .status-one {
+        color: rgb(247, 88, 88);
+    }
+
+    /* End Projects */
+
+    /* Contact */
+
+    .contact {
+        margin-top: 20%;
+    }
+
+    .contact-title {
+        display: flex;
+        justify-content: flex-end;
+        margin-right: 10%;
+        font-size: 7rem;
+        font-family: NeueMontreal-Bold;
+        color: #020202;
+    }
+
+    .contact-div {
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: flex-end;
+        margin-right: 10%;
+        margin-top: 3%;
+        gap: 50px;
+    }
+
+    .fa-envelope,
+    .fa-github {
+        display: flex;
+        justify-content: center;
+        font-size: 50px;
+    }
+
+    .contact-links-div {
+        display: flex;
+        justify-content: center;
+        font-size: 30px;
+        font-family: NeueMontreal-Medium;
+    }
+
+    .contact-links {
+        margin-left: 20px;
+    }
+
+    .contact-links:hover {
+        transition: all 0.3s;
+        color: #16db65;
+    }
+
+    /* End Contact */
+}
