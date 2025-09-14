@@ -108,10 +108,6 @@ a {
         background-color: black;
     }
 
-    .offcanvas-header {
-
-    }
-
     .offcanvas-title {
         font-size: 30px;
         font-family: Migra-ExtraBold;
@@ -228,21 +224,21 @@ a {
         display: flex;
         flex-direction: row;
         justify-content: center;
-        gap: 80px;
+        gap: 50px;
         flex-wrap: wrap;
         font-family: NeueMontreal-Bold;
     }
 
-    .flaticon-icon {
+    .svgrepo-icon {
         display: flex;
-        width: 110px;
+        width: 80px;
         height: auto;
     }
 
     .skills-p {
         display: flex;
         justify-content: center;
-        font-size: 1.5rem;
+        font-size: 1.3rem;
         margin-top: 20px;
     }
 
@@ -265,31 +261,35 @@ a {
     .projects-div {
         display: flex;
         flex-direction: column;
+        text-align: center;
         margin-top: 15%;
         gap: 80px;
-        margin-left: 16%;
     }
 
     .projects-div-text {
-        margin-left: 10px;
+        margin: 0px 10px 0px;
     }
 
     .project-one,
     .project-two {
         display: flex;
         flex-direction: column;
+        justify-content: center;
+        align-items: center;
         font-family: NeueMontreal-Bold;
     }
 
-    .manganow-title,
+    .bookregistrationsystem-title,
     .project-two-title {
         display: flex;
         color: #058c42;
-        font-size: 2.5rem;
+        font-size: 2rem;
         transition: all 0.3s;
+        margin-top: 10px;
     }
 
     .projects-p {
+        margin-top: 10px;
         font-size: 1.5rem;
     }
 
@@ -306,6 +306,7 @@ a {
         padding: 8px 20px 8px 20px;
         font-size: 1.5rem;
         transition: all 0.3s;
+        margin-top: 10px;
     }
 
     .projects-button-visit:hover {
@@ -315,7 +316,7 @@ a {
     }
 
     .status-one {
-        color: rgb(247, 88, 88);
+        color: #058c42;
     }
 
     /* End Projects */
@@ -486,7 +487,7 @@ a {
         font-family: NeueMontreal-Bold;
     }
 
-    .flaticon-icon {
+    .svgrepo-icon {
         display: flex;
         margin-left: 3rem;
         width: 130px;
@@ -536,7 +537,7 @@ a {
         margin-left: 20px;
     }
 
-    .manganow-title,
+    .bookregistrationsystem-title,
     .project-two-title {
         display: flex;
         color: #058c42;
@@ -569,7 +570,7 @@ a {
     }
 
     .status-one {
-        color: rgb(247, 88, 88);
+        color: #058c42;
     }
 
     /* End Projects */
@@ -741,7 +742,7 @@ a {
     .about-title {
         display: flex;
         justify-content: center;
-        font-size: 7rem;
+        font-size: 6rem;
         font-family: NeueMontreal-Bold;
         color: #020202;
     }
@@ -758,7 +759,8 @@ a {
     .about-p {
         font-size: 2rem;
         font-family: NeueMontreal-Bold;
-        text-align: center;
+        text-align: justify;
+        margin: 0 25px 0;
     }
 
     .about-skills-title {
@@ -771,20 +773,25 @@ a {
 
     .skills {
         display: flex;
-        gap: 3rem;
+        flex-direction: row;
+        justify-content: center;
+        gap: 60px;
+        flex-wrap: wrap;
+        width: 63%;
         font-family: NeueMontreal-Bold;
     }
+    
 
-    .flaticon-icon {
+    .svgrepo-icon {
         display: flex;
-        width: 130px;
+        width: 120px;
         height: auto;
     }
 
     .skills-p {
         display: flex;
         justify-content: center;
-        font-size: 1.5rem;
+        font-size: 1.7rem;
         margin-top: 20px;
     }
 
@@ -799,7 +806,7 @@ a {
     .projects-title {
         display: flex;
         justify-content: center;
-        font-size: 7rem;
+        font-size: 6rem;
         font-family: NeueMontreal-Bold;
         color: #020202;
     }
@@ -812,25 +819,29 @@ a {
     }
 
     .projects-div-text {
-        margin-left: 20px;
+        margin: 0px 20px 0px;
     }
 
     .project-one,
     .project-two {
         display: flex;
         flex-direction: column;
-        margin-left: 17%;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
         font-family: NeueMontreal-Bold;
     }
-    .manganow-title,
+    .bookregistrationsystem-title,
     .project-two-title {
         color: #058c42;
         font-size: 3rem;
         transition: all 0.3s;
+        margin-top: 20px;
     }
 
     .projects-p {
         font-size: 2rem;
+        margin: 10px 0 10px;
     }
 
     .projects-img {
@@ -855,7 +866,7 @@ a {
     }
 
     .status-one {
-        color: rgb(247, 88, 88);
+        color: #058c42;
     }
 
     /* End Projects */
@@ -871,7 +882,7 @@ a {
     .contact-title {
         display: flex;
         justify-content: center;
-        font-size: 7rem;
+        font-size: 6rem;
         font-family: NeueMontreal-Bold;
         color: #020202;
     }
@@ -900,7 +911,7 @@ a {
     .contact-links {
         display: flex;
         justify-content: center;
-        font-size: 40px;
+        font-size: 30px;
         font-family: NeueMontreal-Medium;
         transition: all 0.3s;
         margin-top: 20px;
@@ -981,7 +992,7 @@ a {
     }
 
     .main-text {
-        font-size: 7rem;
+        font-size: 6rem;
         margin-top: 13rem;
         border-right: 1px solid #058c42;
         padding-right: 20px;
@@ -1010,7 +1021,7 @@ a {
         justify-content: center;
         margin-top: 13rem;
         margin-left: 20px;
-        font-size: 3rem;
+        font-size: 2.5rem;
         font-family: "NeueMontreal-Bold";
     }
 
@@ -1036,7 +1047,7 @@ a {
         display: flex;
         justify-content: flex-end;
         margin-right: 10%;
-        font-size: 7rem;
+        font-size: 5rem;
         font-family: NeueMontreal-Bold;
         color: #020202;
     }
@@ -1050,6 +1061,8 @@ a {
     }
 
     .about-p {
+        text-align: justify;
+        width: 70%;
         margin-right: 10%;
         font-size: 1.5rem;
         font-family: NeueMontreal-Bold;
@@ -1068,12 +1081,12 @@ a {
         display: flex;
         margin-right: 10%;
         font-family: NeueMontreal-Bold;
+        gap: 30px;
     }
 
-    .flaticon-icon {
+    .svgrepo-icon {
         display: flex;
-        margin-left: 3rem;
-        width: 130px;
+        width: 100px;
         height: auto;
     }
 
@@ -1096,7 +1109,7 @@ a {
         display: flex;
         justify-content: flex-start;
         margin-left: 10%;
-        font-size: 7rem;
+        font-size: 5rem;
         font-family: NeueMontreal-Bold;
         color: #020202;
     }
@@ -1117,23 +1130,26 @@ a {
     }
 
     .projects-div-text {
-        margin-left: 20px;
+        margin: 0 20px 0;
     }
 
-    .manganow-title,
+    .bookregistrationsystem-title,
     .project-two-title {
         display: flex;
         color: #058c42;
-        font-size: 2.5rem;
+        font-size: 2.3rem;
         transition: all 0.3s;
     }
 
     .projects-p {
-        font-size: 1.5rem;
+        font-size: 1.4rem;
+        margin: 10px 0 10px;
     }
 
     .projects-img {
         width: 30%;
+        height: auto;
+        object-fit:cover;
         border-radius: 20px;
     }
 
@@ -1153,7 +1169,7 @@ a {
     }
 
     .status-one {
-        color: rgb(247, 88, 88);
+        color: #058c42;
     }
 
     /* End Projects */
@@ -1168,7 +1184,7 @@ a {
         display: flex;
         justify-content: flex-end;
         margin-right: 10%;
-        font-size: 7rem;
+        font-size: 5rem;
         font-family: NeueMontreal-Bold;
         color: #020202;
     }
@@ -1326,7 +1342,7 @@ a {
         display: flex;
         justify-content: flex-end;
         margin-right: 10%;
-        font-size: 7rem;
+        font-size: 6rem;
         font-family: NeueMontreal-Bold;
         color: #020202;
     }
@@ -1340,6 +1356,8 @@ a {
     }
 
     .about-p {
+        text-align:justify;
+        width: 45%;
         margin-right: 10%;
         font-size: 1.5rem;
         font-family: NeueMontreal-Bold;
@@ -1358,12 +1376,12 @@ a {
         display: flex;
         margin-right: 10%;
         font-family: NeueMontreal-Bold;
+        gap: 30px;
     }
 
-    .flaticon-icon {
+    .svgrepo-icon {
         display: flex;
-        margin-left: 3rem;
-        width: 130px;
+        width: 100px;
         height: auto;
     }
 
@@ -1386,7 +1404,7 @@ a {
         display: flex;
         justify-content: flex-start;
         margin-left: 10%;
-        font-size: 7rem;
+        font-size: 6rem;
         font-family: NeueMontreal-Bold;
         color: #020202;
     }
@@ -1408,9 +1426,11 @@ a {
 
     .projects-div-text {
         margin-left: 20px;
+        width: 50%;
+        text-align: justify;
     }
 
-    .manganow-title,
+    .bookregistrationsystem-title,
     .project-two-title {
         display: flex;
         color: #058c42;
@@ -1420,11 +1440,13 @@ a {
 
     .projects-p {
         font-size: 1.5rem;
+        margin: 10px 0 10px;
     }
 
     .projects-img {
-        width: 30%;
+        width: 25%;
         border-radius: 20px;
+        object-fit: cover;
     }
 
     .projects-button-visit {
@@ -1443,7 +1465,7 @@ a {
     }
 
     .status-one {
-        color: rgb(247, 88, 88);
+        color: #058c42;
     }
 
     /* End Projects */
@@ -1458,7 +1480,7 @@ a {
         display: flex;
         justify-content: flex-end;
         margin-right: 10%;
-        font-size: 7rem;
+        font-size: 6rem;
         font-family: NeueMontreal-Bold;
         color: #020202;
     }
@@ -1652,7 +1674,7 @@ a {
         gap: 30px;
     }
 
-    .flaticon-icon {
+    .svgrepo-icon {
         display: flex;
         margin-left: 3rem;
         width: 150px;
@@ -1702,7 +1724,7 @@ a {
         margin-left: 20px;
     }
 
-    .manganow-title,
+    .bookregistrationsystem-title,
     .project-two-title {
         display: flex;
         color: #058c42;
@@ -1735,7 +1757,7 @@ a {
     }
 
     .status-one {
-        color: rgb(247, 88, 88);
+        color: #058c42;
     }
 
     /* End Projects */
@@ -1788,4 +1810,8 @@ a {
     }
 
     /* End Contact */
+}
+
+.status-two{
+    color: rgb(236, 120, 25);
 }
