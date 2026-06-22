@@ -81,8 +81,3 @@ Append an entry to `src/content/projects.ts`:
 ```
 
 It renders automatically in the projects list.
-
-## Legacy
-
-The previous static site (HTML/CSS) is preserved under [`legacy/`](./legacy) for
-reference and is not part of the build.
