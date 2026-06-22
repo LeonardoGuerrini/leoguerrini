@@ -1,0 +1,53 @@
+@import "tailwindcss";
+
+/*
+ * Design tokens (Direction A — Editorial Bold).
+ * Centralized here so colors, fonts and motion stay consistent and themeable.
+ * Font family variables are injected by next/font in the root layout.
+ */
+@theme {
+  --color-paper: #f4f0ea;
+  --color-paper-soft: #ece7df;
+  --color-ink: #16140f;
+  --color-green: #15824f;
+  --color-green-bright: #3ba86f;
+  --color-muted: #6f6a5f;
+  --color-body: #2c2a22;
+
+  --font-sans: var(--font-archivo), ui-sans-serif, system-ui, sans-serif;
+  --font-serif: var(--font-dm-serif), ui-serif, Georgia, serif;
+  --font-mono: var(--font-space-mono), ui-monospace, monospace;
+
+  --animate-marquee: marquee 32s linear infinite;
+}
+
+@keyframes marquee {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    /* The track is duplicated, so -50% returns to a seamless start. */
+    transform: translateX(-50%);
+  }
+}
+
+@layer base {
+  body {
+    background-color: var(--color-paper);
+    color: var(--color-ink);
+    font-family: var(--font-sans);
+    -webkit-font-smoothing: antialiased;
+  }
+
+  a {
+    color: inherit;
+    text-decoration: none;
+  }
+}
+
+/* Respect users who prefer reduced motion. */
+@media (prefers-reduced-motion: reduce) {
+  .animate-marquee {
+    animation: none;
+  }
+}
